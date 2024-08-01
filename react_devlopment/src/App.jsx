@@ -5,10 +5,19 @@ import './App.css'
 import Code from './Code'
 
 function App(){
+ let myObj={
+   usernmae: "anish",
+   age:23
+ }
+ let newArr=[1,2,3]
+
+
+
   return(
       <>
       <h2 className="bg-green-400 text-black p-4 rounded-xl mb-4">Baap is only Anish</h2>
-      <Code/>
+      <Code  usernmae="king anish" btnText="click me" />
+      <Code usernmae ="golwa" btnText='Visit me'/>
       
       </>
   )

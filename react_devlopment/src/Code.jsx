@@ -1,5 +1,6 @@
 import React from "react";
-function Code(){
+function Code({usernmae ,btnText="visit me"}){
+  console.log(usernmae);
     return (
         
     <div className="w-[300px] rounded-md border">
